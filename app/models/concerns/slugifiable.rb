@@ -1,4 +1,4 @@
-class Slugifiable
+Module Slugifiable
   module ClassMethods
     def find_by_slug(slug)
       self.all.find { |artist| artist.slug == slug}
