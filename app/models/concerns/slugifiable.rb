@@ -10,5 +10,4 @@ Module Slugifiable
       self.name.gsub(" ", "-").downcase
     end
   end
-
 end
